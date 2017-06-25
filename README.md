@@ -22,7 +22,7 @@ export CC_arm_unknown_linux_musleabihf=arm-linux-gnueabihf-gcc
 [target.arm-unknown-linux-musleabihf]
 linker = "~/.cargo/rust-cross-arm-musl/arm-linux-gnueabihf-link.sh"
 ```
-* cd `~/.cargo/rust-cross-arm/musl`
+* cd `~/.cargo/rust-cross-arm-musl`
 * Download and extract your needed libraries from Alpine Linux packages (listed at [http://nl.alpinelinux.org/alpine/latest-stable/main/armhf/](http://nl.alpinelinux.org/alpine/latest-stable/main/armhf/))
 
 ```
